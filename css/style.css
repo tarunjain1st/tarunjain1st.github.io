@@ -207,13 +207,42 @@ figure {
         margin: 0;
         display: inline;
         list-style: none; }
-        #colorlib-aside .colorlib-footer ul li a {
+
+
+        #colorlib-aside .colorlib-footer ul li:nth-child(1) a {
           color: rgba(255, 255, 255, 0.3);
           padding: 4px; }
-          #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
+        #colorlib-aside .colorlib-footer ul li:nth-child(2) a {
+          color: rgba(255, 255, 255, 0.3);
+          padding: 4px; }
+        #colorlib-aside .colorlib-footer ul li:nth-child(3) a {
+          color: rgba(255, 255, 255, 0.3);
+          padding: 4px; }
+        #colorlib-aside .colorlib-footer ul li:nth-child(4) a {
+          color: rgba(255, 255, 255, 0.3);
+          padding: 4px; }
+
+
+          #colorlib-aside .colorlib-footer ul li:nth-child(1) a:hover, #colorlib-aside .colorlib-footer ul li:nth-child(1) a:active, #colorlib-aside .colorlib-footer ul li:nth-child(1) a:focus {
             text-decoration: none;
             outline: none;
             color: #2c98f0; }
+
+          #colorlib-aside .colorlib-footer ul li:nth-child(2) a:hover, #colorlib-aside .colorlib-footer ul li:nth-child(2) a:active, #colorlib-aside .colorlib-footer ul li:nth-child(2) a:focus {
+            text-decoration: none;
+            outline: none;
+            color: #2c98f0; }
+
+          #colorlib-aside .colorlib-footer ul li:nth-child(3) a:hover, #colorlib-aside .colorlib-footer ul li:nth-child(3) a:active, #colorlib-aside .colorlib-footer ul li:nth-child(3) a:focus {
+            text-decoration: none;
+            outline: none;
+            color: #2c98f0; }
+
+          #colorlib-aside .colorlib-footer ul li:nth-child(4) a:hover, #colorlib-aside .colorlib-footer ul li:nth-child(4) a:active, #colorlib-aside .colorlib-footer ul li:nth-child(4) a:focus {
+            text-decoration: none;
+            outline: none;
+            color: #2c98f0; }
+
 
 .container-wrap {
   max-width: 1170px;
